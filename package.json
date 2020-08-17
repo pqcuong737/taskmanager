@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "heroku-postbuild": "node ./scripts/create-env.js && next build",
+    "build": "node ./scripts/create-env.js && next build",
+    "start": "node index.js"
   },
   "dependencies": {
     "@date-io/moment": "^1.3.13",
