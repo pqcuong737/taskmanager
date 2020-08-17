@@ -1,1 +1,5 @@
-export default () => <div>Welcome to heroku!</div>
+function HomePage() {
+    return <div>Welcome to Next.js!</div>
+  }
+  
+export default HomePage
