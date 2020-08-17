@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "heroku-postbuild": "node ./scripts/create-env.js && next build",
-    "build": "node ./scripts/create-env.js && next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "node index.js"
   },
   "dependencies": {
